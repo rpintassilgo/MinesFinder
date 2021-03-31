@@ -114,9 +114,6 @@ public class JanelaDeJogo extends JFrame {
             }
         };
 
-        // BUG: se na primeira jogada dermos um "right-click" e depois um "left-click", o jogo termina e diz que ganhámos
-        // com um valor lixo no lugar dos segundos e as minas nem são posicionadas
-
 
         for (int coluna = 0; coluna < altura; ++coluna) {
             for (int linha = 0; linha < largura; ++linha) {
